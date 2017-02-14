@@ -17,6 +17,24 @@
       "css": "right-hand",
       "code": 59393,
       "src": "fontawesome"
+    },
+    {
+      "uid": "0f6a2573a7b6df911ed199bb63717e27",
+      "css": "github-circled",
+      "code": 61595,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "c64623255a4a7c72436b199b05296c4f",
+      "css": "emo-happy",
+      "code": 59394,
+      "src": "fontelico"
+    },
+    {
+      "uid": "a42f298da5c64e646a5d532724cd6e15",
+      "css": "home-outline",
+      "code": 59396,
+      "src": "typicons"
     }
   ]
 }

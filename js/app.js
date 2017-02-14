@@ -13,56 +13,12 @@ var pageData = {
     'preview': function previewData() {
         $('body').css('padding', '0');
         // 打开页面列表
-        $('.open-preview-list').on('click', function() {
-                $(this).find('i').toggleClass('active');
-                $('.preview-nav-list').toggleClass('active');
-            })
-            // var htmlList = '';
-            // for (var i = 0; i < template.length; i++) {
-            //     if (getUrl == template[i].id) {
-            //         for (var l = 0; l < template[i].page.length; l++) {
-            //             $('.preview-view-iframe').attr('src', template[i].page[0][1]);
-            //             htmlList += '<span data-src="' + template[i].page[l][1] + '"><i class="icon-right-hand"></i> ' + template[i].page[l][0] + '</span>';
-
-        //         }
-
-
-        //         // 判断类型
-        //         switch (template[i].pageType) {
-        //             case 'wap':
-        //                 $('.preview-list-pc , .preview-list-wap').hide();
-        //                 $('.preview-pc-block').hide();
-        //                 $('.preview-phone-block').show();
-        //                 break;
-        //             case 'rwd':
-        //                 // $('.preview-list-pc , .preview-list-wap').hide();
-        //                 $('.preview-list-pc').find('i').addClass('active');
-        //                 $('.preview-pc-block').show();
-        //                 autoSize()
-
-        //                 $(window).resize(function() {
-        //                     autoSize()
-        //                 });
-
-
-        //                 break;
-        //             case 'pc':
-        //                 $('.preview-list-pc , .preview-list-wap').hide();
-        //                 $('.preview-pc-block').show();
-        //                 autoSize()
-
-        //                 $(window).resize(function() {
-        //                     autoSize()
-        //                 });
-        //                 break;
-        //             default:
-        //                 break;
-        //         }
-        //     }
-        // }
+        $('.open-preview-list').eq(0).on('click', function() {
+            $(this).find('i').toggleClass('active');
+            $('.preview-nav-list').toggleClass('active');
+        })
 
         autoSize();
-
         function autoSize() {
             if ($('body').width() < 700) {
                 // 移动端
