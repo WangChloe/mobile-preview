@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+html {
+	font-size: 100px;
+	font-family: 'Helvetica-Neue-4b10de3e76a63', Arial, "宋体";
+}
+body {
+	padding: 0px;
+	margin: 0px auto;
+	font-size: 1.6em;
+	color: #000000;
+	min-width: 320px;
+	max-width: 750px;
+	-webkit-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight: rgba(0, 0, 0, 0); /*取出点击出现半透明的灰色背景*/
+	-webkit-user-select: none;  /*控制内容的可选择性*/
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+ul, li, form, dl, dt, dd, div {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, .p {
+	padding: 0px;
+	margin: 0px;
+}
+select, input, em, textarea {
+	font-size: 1em;
+	font-style: normal;
+	color: #636363;
+	font-family: '微软雅黑';
+	border-radius: 0;
+	-webkit-border-radius: 0;
+}
+img, object {
+	max-width: 100%;
+	border: 0;
+	overflow: hidden;
+	vertical-align: top;
+}
+a {
+	color: #636363;
+	text-decoration: none;
+	noline: -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+}
+
+/* 去掉链接触摸高亮 */
+a:focus {
+	outline: none;
+	-moz-outline: none;
+}
+
+.hide {
+	display: none
+}

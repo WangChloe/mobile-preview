@@ -1,0 +1,201 @@
+﻿@charset "utf-8";
+
+html {
+	font: normal 62.5%/2.3em '微软雅黑', Arial, "宋体";
+}
+body {
+	padding: 0px;
+	margin: 0px auto;
+	font-size: 1.6em;
+	color: #000000;
+	min-width: 320px;
+	max-width: 750px;
+	-webkit-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight: rgba(0, 0, 0, 0); /*取出点击出现半透明的灰色背景*/
+	-webkit-user-select: none;  /*控制内容的可选择性*/
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+	background: url(../images/bg.jpg) repeat-y center top;
+	background-size: 100% auto;
+}
+ul, li, form, dl, dt, dd, div {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, .p {
+	padding: 0px;
+	margin: 0px;
+}
+select, input, em, textarea {
+	font-size: 1em;
+	font-style: normal;
+	color: #636363;
+	font-family: '微软雅黑';
+	border-radius: 0;
+	-webkit-border-radius: 0;
+}
+img, object {
+	max-width: 100%;
+	border: 0;
+	overflow: hidden;
+	vertical-align: top;
+}
+a {
+	color: #636363;
+	text-decoration: none;
+	noline: -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+}
+
+/* 去掉链接触摸高亮 */
+a:focus {
+	outline: none;
+	-moz-outline: none;
+}
+@font-face {
+	font-family: FZLTXIHK;
+	src: url('../font/FZLTXIHK.ttf');
+}
+.Contain {
+	width: 100%;
+	min-width: 320px;
+	max-width: 750px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 0 9% 1%;
+	background: url(../images/img2.png) repeat-y center top;
+	background-size: 100% auto;
+	font-family: FZLTXIHK;
+	font-size: 3em;
+	line-height: 1.2em;
+}
+.Contain > ul {
+	margin-top: -4%;
+}
+.Contain li .title {
+	position: relative;
+	font-style: italic;
+}
+.Contain li .title .num {
+	position: absolute;
+	left: -0.5em;
+}
+.Contain .con {
+	overflow: hidden;
+	font-size: 0.8em;
+	padding-bottom: 10%;
+}
+.Contain .con li {
+	float: left;
+	width: 50%;
+	padding: 7% 0;
+	vertical-align: middle;
+}
+.Contain .con ul.width li {
+	width: 100%;
+	float: none;
+}
+.Contain .con li.next {
+	padding-bottom: 0;
+}
+.Contain .con li span {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	vertical-align: middle;
+	position: relative;
+	background: #3d3d3d;
+	border: 1px solid #c4a35a;
+	margin-right: 5%;
+}
+.Contain .con li span i {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: -26%;
+	width: 34px;
+	height: 29px;
+}
+.Contain .con li span.span i {
+	background: url(../images/img4.png) no-repeat;
+	background-size: 100% 100%;
+}
+.Contain .con .text {
+	position: relative;
+	clear: both;
+}
+.Contain .con textarea {
+	width: 100%;
+	height: 4em;
+	line-height: 1.2em;
+	box-sizing: border-box;
+	border: 1px solid #2b2a29;
+	padding: 5% 2%;
+	background: #2b2a29;
+	color: #73664a;
+}
+.Contain .con textarea.NO {
+	line-height: 2em;
+	text-align: center;
+	background: #2b2a29;
+	color: #73664a;
+}
+.seven {
+	overflow: hidden;
+}
+.seven a {
+	display: inline-block;
+	padding: 2% 10%;
+	background: #2b2a29;
+	color: #f1c76c;
+}
+.seven a em {
+	padding: 0 0.5em;
+}
+.seven a.right {
+	float: right;
+}
+.Contain .one .con li:nth-child(1), .Contain .one .con li:nth-child(2) {
+	padding: 7% 0 0;
+}
+.Contain .three .con li:nth-child(1), .Contain .three .con li:nth-child(2) {
+	padding: 7% 0 0;
+}
+.Contain .four .con li {
+	padding: 7% 0 0;
+}
+.Contain .four .con li:last-child {
+	padding: 7% 0;
+}
+.Contain .five .con li:nth-child(1) {
+	padding: 7% 0 0;
+}
+.Contain .six .con li {
+	padding: 7% 0 0;
+}
+.Contain .six .con li.padding {
+	padding-left: 1.5em;
+}
+.Contain .six .con li:last-child {
+	padding: 7% 0;
+}
+.bottom {
+	margin-top: -2px;
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+	.Contain {
+		font-size: 1.2em;
+	}
+	.Contain .con li span {
+		width: 16px;
+		height: 16px;
+	}
+	.Contain .con li span i {
+		width: 25px;
+		height: 22px;
+	}
+}

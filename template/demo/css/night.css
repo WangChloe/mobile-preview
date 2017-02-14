@@ -1,0 +1,22 @@
+/*
+* @Author: Administrator
+* @Date:   2016-07-19 13:54:41
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-07-19 14:46:39
+*/
+body {
+	background-color: #393939;
+}
+
+/*index.css*/
+.home {
+	background-color: #909090;
+}
+
+/*menu.css*/
+.wechat {
+	background-image: url(../images/wechat_night.png);
+}
+.home_landscape .text, .nav .text, .about .text, .about .content, .contact .text, .contact .content {
+	color: #FFF;
+}
